@@ -39,4 +39,4 @@ COPY litecoin.conf ${CONFIG_PATH}
 # rpcport syncport  zmqport
 EXPOSE 8034 9333 38334
 
-CMD ["litecoind","--conf=/root/litecoin.conf"]
+CMD ["litecoind","-conf=/root/litecoin.conf"]
